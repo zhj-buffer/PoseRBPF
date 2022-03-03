@@ -15,8 +15,8 @@ is easy to choose which GPU to use.
 Install dependencies:
 
 ```bash
-sudo apt-get install libassimp-dev
-pip install -r requirement.txt
+sudo apt-get install libassimp-dev python3-pyassimp
+pip3 install -r requirement.txt
 #additionally, you need to install nvidia OpenGL drivers and make them visible
 export LD_LIBRARY_PATH=/usr/lib/nvidia-<vvv>:$LD_LIBRARY_PATH
 ```
