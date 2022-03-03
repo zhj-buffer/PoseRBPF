@@ -25,6 +25,7 @@ year      = {2020}
 
 ## Installation 
 ```bash
+git clone https://github.com/strasdat/Sophus.git
 git clone https://github.com/NVlabs/PoseRBPF.git --recursive
 ```
 
